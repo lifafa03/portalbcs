@@ -1,0 +1,96 @@
+.sales-box {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  /* background-color: #f7f7f7; */
+  border-radius: 10px;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  padding: 30px;
+  box-sizing: border-box;
+  overflow: auto;
+  /* flex-wrap: nowrap; */
+
+}
+.sales-box::-webkit-scrollbar {
+  width: 0.5em;
+  background-color: transparent;
+}
+
+/* .sales-box::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+}
+
+.sales-box::-webkit-scrollbar-thumb {
+  background-color: #000000;
+} */
+
+.logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo img {
+  max-width: 100%;
+}
+
+.title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-left,
+.form-right {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group textarea,
+.input-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.button-group {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.button-group button {
+  margin: 0 10px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.createButton{
+  background-color: #0450b3;
+  color: white;
+}
+.cancelButton{
+  background-color: #f44336;
+  color: white;
+}
+.uploadDocsButton{
+  background-color: green;
+  color: white;
+}
