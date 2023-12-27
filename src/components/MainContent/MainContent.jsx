@@ -6,7 +6,7 @@ import NotFound from '../NotFound/NotFound';
 import SalesForm from '../Forms/Form';
 import TechnicalStatus from '../TechnicalStatus/TechnicalStatus';
 import AccountStatus from '../AccountStatus/AccountStatus';
-// import SignUpForm from '../SignUpForm/SignUpForm';
+
 
 function MainContent() {
     return (
